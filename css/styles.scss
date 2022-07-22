@@ -1,9 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-@import "../node_modules/bootswatch/dist/morph/bootswatch";
-
 @import "../node_modules/bootswatch/dist/morph/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootswatch/dist/morph/bootswatch";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
+@import "../node_modules/bootswatch/dist/morph/variables.scss";
 
 // ---------------------------------------------------------------------------------------------------------------
 $gray-400Changed: red !default;
@@ -45,16 +45,6 @@ $gray-400Changed: red !default;
   width: 100%;
   height: 100%;
   text-align: center;
-  .floating_content {
-    background-color: $gray-400Changed;
-    width: 100%;
-    p,
-    h1 {
-      color: $gray-900;
-      margin: 0;
-      padding: 0;
-    }
-  }
 }
 
 .center_content {
@@ -110,7 +100,8 @@ $gray-400Changed: red !default;
 
 .input_q {
   width: 15%;
-  border: none;
+  border: 1px solid grey;
+  background-color: #c5ceda;
   text-align: center;
   color: grey;
 }
