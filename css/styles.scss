@@ -1,11 +1,12 @@
-@import "./bootstrap.min.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-@import "../node_modules/bootswatch/dist/morph/bootstrap.min.css";
+@import "../node_modules/bootswatch/dist/morph/bootswatch";
 
 @import "../node_modules/bootswatch/dist/morph/variables";
 
+
 // ---------------------------------------------------------------------------------------------------------------
-$gray-400Changed: #bed1e696 !default;
+$gray-400Changed: red !default;
 
 // ---------------------------------------------------------------------------------------------------------------
 .navbar {
